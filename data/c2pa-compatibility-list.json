@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "version": "1.0.0",
+    "last_updated": "2026-04-19",
+    "title": "C2PA Compatibility List",
+    "description": "Canonical JSON source for cameras, smartphones, apps, platforms, and tools that support C2PA Content Credentials."
+  },
   "cameras": {
     "Leica": [
       {
