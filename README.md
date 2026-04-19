@@ -21,7 +21,7 @@ We track C2PA Content Credentials support across six categories:
   "editing_tools": {},
   "ai_generation_tools": {},
   "publishing_platforms": {},
-  "verification_tool"s: {}
+  "verification_tools": {}
 }
 ```
 
