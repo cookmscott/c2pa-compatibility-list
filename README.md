@@ -19,9 +19,9 @@ We track C2PA Content Credentials support across six categories:
   "cameras": {},
   "smartphones": {},
   "editing_tools": {},
-  "ai_generation_tools: {},
-  "publishing_platforms: {},
-  "verification_tools: {}
+  "ai_generation_tools": {},
+  "publishing_platforms": {},
+  "verification_tool"s: {}
 }
 ```
 
