@@ -1,0 +1,239 @@
+{
+  "cameras": {
+    "Leica": [
+      {
+        "name": "M11-P",
+        "status": "Live",
+        "notes": "The world's first camera with built-in Content Credentials, using a dedicated hardware chip to sign images at the moment of capture [12.1.1]."
+      },
+      {
+        "name": "M11-D",
+        "status": "Live",
+        "notes": "The second Leica camera to integrate C2PA-compliant authenticity technology, continuing the focus on verifiable provenance [12.1.3]."
+      },
+      {
+        "name": "SL3",
+        "status": "Not Supported",
+        "notes": "Does not support C2PA. Leica has stated that firmware-only solutions do not meet its security standards for encryption [12.1.2]."
+      }
+    ],
+    "Sony": [
+      {
+        "name": "Alpha 1 (a1)",
+        "status": "Live",
+        "notes": "C2PA support added via firmware update (Ver. 2.00), enabling in-camera digital signatures to authenticate images [12.3.1, 12.3.2]."
+      },
+      {
+        "name": "Alpha 9 III (a9 III)",
+        "status": "Live",
+        "notes": "Support for C2PA image authenticity was included in a firmware update (Ver. 2.00) [12.3.1, 12.3.2]."
+      },
+      {
+        "name": "Alpha 7S III (a7S III)",
+        "status": "Live",
+        "notes": "Firmware update (Ver. 3.00) brought Sony's Camera Authenticity Solution to this model [12.3.1, 12.3.2]."
+      },
+      {
+        "name": "Alpha 7 IV (a7 IV)",
+        "status": "Live",
+        "notes": "Gained C2PA support through a firmware update (Ver. 3.00), embedding provenance metadata directly into files [12.3.1, 12.3.2]."
+      }
+    ],
+    "Nikon": [
+      {
+        "name": "Z9",
+        "status": "Announced",
+        "notes": "Announced to receive C2PA support via a future firmware update. Prototypes have been tested with news agencies like AFP [12.2.1]."
+      },
+      {
+        "name": "Z6 III",
+        "status": "Suspended",
+        "notes": "C2PA support was added via firmware but later suspended due to a critical signing vulnerability. The service has not yet been restored [8.1.1]."
+      },
+      {
+        "name": "Future Models",
+        "status": "Announced",
+        "notes": "Nikon is a member of the C2PA steering committee and has committed to integrating Content Credentials into future camera models [6.1.3]."
+      }
+    ],
+    "Canon": [
+      {
+        "name": "EOS R1",
+        "status": "Live",
+        "notes": "Supports C2PA content authentication, initially available for registered news agencies to verify image authenticity from capture [12.4.1, 12.4.2]."
+      },
+      {
+        "name": "EOS R5 Mark II",
+        "status": "Live",
+        "notes": "Firmware update added C2PA support, embedding verifiable metadata to help combat misinformation [12.4.1, 12.4.2]."
+      }
+    ],
+    "Fujifilm": [
+      {
+        "name": "GFX100S II",
+        "status": "Live",
+        "notes": "Reported to have C2PA support for embedding content provenance information [8.1.2]."
+      },
+      {
+        "name": "X-T50",
+        "status": "Live",
+        "notes": "Reported to be a C2PA-compliant device, allowing creators to attach authenticity data to their images [8.1.2]."
+      }
+    ]
+  },
+  "smartphones": {
+    "Samsung": [
+      {
+        "name": "Galaxy S25 Series",
+        "status": "Live",
+        "notes": "The industry's first smartphone lineup to natively support C2PA Content Credentials, initially for images created or edited with Galaxy AI [15.5.1, 15.5.2]."
+      },
+      {
+        "name": "Galaxy Devices (via Gallery App)",
+        "status": "Live",
+        "notes": "A Gallery app update is rolling out Content Credentials support to more Galaxy devices, showing a 'CR' icon for details on AI edits [15.5.3]."
+      }
+    ],
+    "Google": [
+      {
+        "name": "Pixel 10",
+        "status": "Announced",
+        "notes": "Expected to feature hardware-backed C2PA credentialing, using the Titan M2 security chip to sign every photo by default [8.1.1, 8.2.1]."
+      }
+    ],
+    "Hardware Enablers": [
+      {
+        "name": "Qualcomm Snapdragon 8 Gen 3",
+        "status": "Live",
+        "notes": "This mobile platform integrates C2PA support at the chip level in partnership with Truepic, enabling any smartphone manufacturer to adopt the standard [6.1.3, 12.5.1]."
+      }
+    ]
+  },
+  "editing_tools": {
+    "Adobe": [
+      {
+        "name": "Photoshop",
+        "status": "Live",
+        "notes": "Allows creators to attach Content Credentials during export, providing a transparent edit history [6.3.1]."
+      },
+      {
+        "name": "Lightroom (CC & Classic)",
+        "status": "Live",
+        "notes": "Supports attaching Content Credentials to JPEG files on export, logging edits and creator information [13.1.1, 13.1.2]."
+      },
+      {
+        "name": "Fresco",
+        "status": "Live",
+        "notes": "Allows artists to export their work with Content Credentials, which can then be displayed on platforms like Behance [15.2.1]."
+      }
+    ],
+    "Capture One": [
+      {
+        "name": "Capture One Pro (Studio & All in One)",
+        "status": "Beta",
+        "notes": "Content Credentials support is currently in beta, allowing professional photographers to integrate provenance into their workflows [13.2.2]."
+      }
+    ]
+  },
+  "ai_generation_tools": {
+    "OpenAI": [
+      {
+        "name": "DALL-E 3",
+        "status": "Live",
+        "notes": "Automatically embeds C2PA metadata into generated images to clearly label them as AI-created [8.1.1, 13.3.2]."
+      },
+      {
+        "name": "Sora",
+        "status": "Announced",
+        "notes": "OpenAI has pledged to add C2PA credentials to its video generation model to signify AI origin [13.3.2]."
+      }
+    ],
+    "Microsoft": [
+      {
+        "name": "Bing Image Creator",
+        "status": "Live",
+        "notes": "All images generated with this tool include an invisible C2PA digital watermark, confirming their AI provenance [13.4.1, 13.4.2]."
+      },
+      {
+        "name": "Designer",
+        "status": "Announced",
+        "notes": "Microsoft is working to roll out Content Credentials capabilities in its graphic design application [13.4.3]."
+      }
+    ],
+    "Adobe": [
+      {
+        "name": "Firefly",
+        "status": "Live",
+        "notes": "All content generated with Adobe Firefly automatically includes Content Credentials, indicating its AI origin [8.1.1, 15.1.1]."
+      }
+    ],
+    "Google": [
+      {
+        "name": "Imagen (in Vertex AI & Products)",
+        "status": "Live",
+        "notes": "Google's image generation models are being updated to include C2PA metadata, which surfaces in features like 'About this image' in Google Search [13.5.1]."
+      }
+    ]
+  },
+  "publishing_platforms": {
+    "Adobe": [
+      {
+        "name": "Behance",
+        "status": "Live",
+        "notes": "Natively displays the 'CR' icon for Content Credentials, allowing viewers to inspect an asset's creation and edit history [15.2.1, 15.2.3]."
+      },
+      {
+        "name": "Adobe Stock",
+        "status": "Live",
+        "notes": "Preserves and displays Content Credentials for supported assets, providing transparency for stock media."
+      }
+    ],
+    "Social Media": [
+      {
+        "name": "LinkedIn",
+        "status": "Live",
+        "notes": "Displays a 'CR' icon on images with attached Content Credentials, giving users access to provenance information directly in their feed [15.3.1, 15.3.2]."
+      },
+      {
+        "name": "TikTok",
+        "status": "Live",
+        "notes": "The first social platform to automatically apply Content Credentials labels to AI-generated content uploaded to its platform, enhancing transparency [15.4.1, 15.4.2]."
+      }
+    ],
+    "Search Engines": [
+      {
+        "name": "Google Search",
+        "status": "Live",
+        "notes": "The 'About this image' feature can read and display C2PA metadata, helping users get context on images they find online [13.5.1]."
+      },
+      {
+        "name": "Microsoft Bing",
+        "status": "Live",
+        "notes": "Features like 'About this image' are being implemented to provide provenance information for images, leveraging C2PA standards."
+      }
+    ]
+  },
+  "verification_tools": {
+    "Content Authenticity Initiative": [
+      {
+        "name": "Content Credentials Verify",
+        "status": "Live",
+        "notes": "The official web-based tool for inspecting any media file to see if it contains Content Credentials and to view its full history [15.2.1]."
+      }
+    ],
+    "Truepic": [
+      {
+        "name": "Truepic Lens & SDKs",
+        "status": "Live",
+        "notes": "Provides enterprise-level tools and SDKs for securely capturing and verifying digital photos and videos using the C2PA standard [12.5.2, 12.5.3]."
+      }
+    ],
+    "Independent": [
+      {
+        "name": "C2PA Viewer",
+        "status": "Live",
+        "notes": "A third-party tool and website dedicated to making C2PA information easy to view and understand for the general public [8.1.1]."
+      }
+    ]
+  }
+}

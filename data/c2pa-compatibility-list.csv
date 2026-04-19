@@ -1,0 +1,38 @@
+category,group,name,status,version,firmware,notes
+Cameras,Leica,M11-P,Live,,,The world's first camera with built-in Content Credentials, using a dedicated hardware chip to sign images at the moment of capture [12.1.1].
+Cameras,Leica,M11-D,Live,,,The second Leica camera to integrate C2PA-compliant authenticity technology, continuing the focus on verifiable provenance [12.1.3].
+Cameras,Leica,SL3,Not Supported,,,Does not support C2PA. Leica has stated that firmware-only solutions do not meet its security standards for encryption [12.1.2].
+Cameras,Sony,Alpha 1 (a1),Live,,,C2PA support added via firmware update (Ver. 2.00), enabling in-camera digital signatures to authenticate images [12.3.1, 12.3.2].
+Cameras,Sony,Alpha 9 III (a9 III),Live,,,Support for C2PA image authenticity was included in a firmware update (Ver. 2.00) [12.3.1, 12.3.2].
+Cameras,Sony,Alpha 7S III (a7S III),Live,,,Firmware update (Ver. 3.00) brought Sony's Camera Authenticity Solution to this model [12.3.1, 12.3.2].
+Cameras,Sony,Alpha 7 IV (a7 IV),Live,,,Gained C2PA support through a firmware update (Ver. 3.00), embedding provenance metadata directly into files [12.3.1, 12.3.2].
+Cameras,Nikon,Z9,Announced,,,Announced to receive C2PA support via a future firmware update. Prototypes have been tested with news agencies like AFP [12.2.1].
+Cameras,Nikon,Z6 III,Suspended,,,C2PA support was added via firmware but later suspended due to a critical signing vulnerability. The service has not yet been restored [8.1.1].
+Cameras,Nikon,Future Models,Announced,,,Nikon is a member of the C2PA steering committee and has committed to integrating Content Credentials into future camera models [6.1.3].
+Cameras,Canon,EOS R1,Live,,,Supports C2PA content authentication, initially available for registered news agencies to verify image authenticity from capture [12.4.1, 12.4.2].
+Cameras,Canon,EOS R5 Mark II,Live,,,Firmware update added C2PA support, embedding verifiable metadata to help combat misinformation [12.4.1, 12.4.2].
+Cameras,Fujifilm,GFX100S II,Live,,,Reported to have C2PA support for embedding content provenance information [8.1.2].
+Cameras,Fujifilm,X-T50,Live,,,Reported to be a C2PA-compliant device, allowing creators to attach authenticity data to their images [8.1.2].
+Smartphones,Samsung,Galaxy S25 Series,Live,,,The industry's first smartphone lineup to natively support C2PA Content Credentials, initially for images created or edited with Galaxy AI [15.5.1, 15.5.2].
+Smartphones,Samsung,Galaxy Devices (via Gallery App),Live,,,A Gallery app update is rolling out Content Credentials support to more Galaxy devices, showing a 'CR' icon for details on AI edits [15.5.3].
+Smartphones,Google,Pixel 10,Announced,,,Expected to feature hardware-backed C2PA credentialing, using the Titan M2 security chip to sign every photo by default [8.1.1, 8.2.1].
+Smartphones,Hardware Enablers,Qualcomm Snapdragon 8 Gen 3,Live,,,This mobile platform integrates C2PA support at the chip level in partnership with Truepic, enabling any smartphone manufacturer to adopt the standard [6.1.3, 12.5.1].
+Editing tools,Adobe,Photoshop,Live,,,Allows creators to attach Content Credentials during export, providing a transparent edit history [6.3.1].
+Editing tools,Adobe,Lightroom (CC & Classic),Live,,,Supports attaching Content Credentials to JPEG files on export, logging edits and creator information [13.1.1, 13.1.2].
+Editing tools,Adobe,Fresco,Live,,,Allows artists to export their work with Content Credentials, which can then be displayed on platforms like Behance [15.2.1].
+Editing tools,Capture One,Capture One Pro (Studio & All in One),Beta,,,Content Credentials support is currently in beta, allowing professional photographers to integrate provenance into their workflows [13.2.2].
+AI generation tools,OpenAI,DALL-E 3,Live,,,Automatically embeds C2PA metadata into generated images to clearly label them as AI-created [8.1.1, 13.3.2].
+AI generation tools,OpenAI,Sora,Announced,,,OpenAI has pledged to add C2PA credentials to its video generation model to signify AI origin [13.3.2].
+AI generation tools,Microsoft,Bing Image Creator,Live,,,All images generated with this tool include an invisible C2PA digital watermark, confirming their AI provenance [13.4.1, 13.4.2].
+AI generation tools,Microsoft,Designer,Announced,,,Microsoft is working to roll out Content Credentials capabilities in its graphic design application [13.4.3].
+AI generation tools,Adobe,Firefly,Live,,,All content generated with Adobe Firefly automatically includes Content Credentials, indicating its AI origin [8.1.1, 15.1.1].
+AI generation tools,Google,Imagen (in Vertex AI & Products),Live,,,Google's image generation models are being updated to include C2PA metadata, which surfaces in features like 'About this image' in Google Search [13.5.1].
+Publishing platforms,Adobe,Behance,Live,,,Natively displays the 'CR' icon for Content Credentials, allowing viewers to inspect an asset's creation and edit history [15.2.1, 15.2.3].
+Publishing platforms,Adobe,Adobe Stock,Live,,,Preserves and displays Content Credentials for supported assets, providing transparency for stock media.
+Publishing platforms,Social Media,LinkedIn,Live,,,Displays a 'CR' icon on images with attached Content Credentials, giving users access to provenance information directly in their feed [15.3.1, 15.3.2].
+Publishing platforms,Social Media,TikTok,Live,,,The first social platform to automatically apply Content Credentials labels to AI-generated content uploaded to its platform, enhancing transparency [15.4.1, 15.4.2].
+Publishing platforms,Search Engines,Google Search,Live,,,The 'About this image' feature can read and display C2PA metadata, helping users get context on images they find online [13.5.1].
+Publishing platforms,Search Engines,Microsoft Bing,Live,,,Features like 'About this image' are being implemented to provide provenance information for images, leveraging C2PA standards.
+Verification tools,Content Authenticity Initiative,Content Credentials Verify,Live,,,The official web-based tool for inspecting any media file to see if it contains Content Credentials and to view its full history [15.2.1].
+Verification tools,Truepic,Truepic Lens & SDKs,Live,,,Provides enterprise-level tools and SDKs for securely capturing and verifying digital photos and videos using the C2PA standard [12.5.2, 12.5.3].
+Verification tools,Independent,C2PA Viewer,Live,,,A third-party tool and website dedicated to making C2PA information easy to view and understand for the general public [8.1.1].

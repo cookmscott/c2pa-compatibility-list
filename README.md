@@ -1,42 +1,108 @@
 # C2PA Compatibility List
+**The public reference for C2PA Content Credentials support across devices, apps, and platforms.**
 
-The public reference for C2PA-compatible cameras, phones, apps, software, and platforms.
+If you're trying to answer *"does this camera / app / platform support C2PA?"* this is the list. We track real-world support status and short implementation notes across the ecosystem, and update it weekly.
 
-This repository is built to be the most useful and discoverable list of products and services that support **C2PA Content Credentials**. It is updated regularly and designed for both human browsing and programmatic use.
+## What's included
 
-## What this repo is
+We track C2PA Content Credentials support across six categories:
 
-A structured, public list of:
+- **Cameras** - hardware support and camera model coverage
+- **Smartphones** - phones, mobile rollouts, and related hardware enablers
+- **Editing tools** - tools used to create or edit media with C2PA support
+- **AI generation tools** - tools that generate media and attach C2PA credentials
+- **Publishing platforms** - anywhere you can post, save, store, or share media with C2PA credentials
+- **Verification tools** - tools that read, inspect, verify, or display Content Credentials
 
-- cameras
-- smartphones
-- editing tools
-- publishing platforms
-- cloud/media workflows
-- verification and viewing tools
+```json
+{
+  "cameras": {},
+  "smartphones": {},
+  "editing_tools": {},
+  "ai_generation_tools: {},
+  "publishing_platforms: {},
+  "verification_tools: {}
+}
+```
 
-Each entry can include support status, notes, firmware requirements, and other important context.
+Each entry is intentionally simple and answers the basics:
 
-## How it gets populated
+- what it is
+- whether support is live, announced, beta, suspended, or not supported
+- what someone should know before relying on it
 
-This repo is updated **weekly** through a broad internet scan focused on primary sources whenever possible, including:
+The JSON source of truth is here:
 
-- manufacturer product pages
-- firmware release notes
-- official announcements
-- developer docs
-- platform help centers
-- standards and ecosystem references
+- [data/c2pa-compatibility-list.json](/Users/scottcook/Documents/side-projects/c2pa-compatibility-list/data/c2pa-compatibility-list.json)
 
-When support is unclear, entries should stay conservative and include notes.
+Example:
 
-## What is available
+```json
+{
+  "cameras": {
+    "Leica": [
+      {
+        "name": "M11-P",
+        "status": "Live",
+        "notes": "The world's first camera with built-in Content Credentials."
+      }
+    ]
+  },
+  "publishing_platforms": {
+    "ProofInBio": [
+      {
+        "name": "ProofInBio",
+        "status": "Live",
+        "notes": "Cloud Photo Service and Gallery for C2PA images."
+      }
+    ]
+  }
+}
+```
 
-The compatibility data is stored in:
+## Status vocabulary
 
-- `data/c2pa-compatibility-list.json` — structured source for apps, sites, and scripts
-- `data/c2pa-compatibility-list.csv` — spreadsheet-friendly version for analysis and quick review
+Every entry uses one of these statuses:
+
+- `Live`
+- `Announced`
+- `Beta`
+- `Suspended`
+- `Not Supported`
+
+When support changes or is limited, entries stay conservative and include notes explaining why.
+
+## How it's maintained
+
+The list is updated weekly using a broad scan of primary sources, including:
+
+- manufacturer product pages and press releases
+- firmware and software release notes
+- official C2PA ecosystem announcements
+- developer documentation and SDKs
+- platform help centers and support articles
+- standards body references and certification lists
+
+This repo is meant to be lightweight, useful, and as up-to-date as possible. It focuses on practical product support rather than broader ecosystem participation.
+
+The category names are intentionally simple. In particular, `publishing_platforms` is broader than just social posting. It includes anywhere people can post, save, store, or share C2PA-enabled media.
+
+## Data files
+
+The compatibility data is available in two formats:
+
+| File | Best for |
+|---|---|
+| `data/c2pa-compatibility-list.json` | Apps, scripts, and programmatic use |
+| `data/c2pa-compatibility-list.csv` | Spreadsheets and quick review |
+
+JSON is the canonical source. CSV is a convenience export for browsing and analysis.
+
+## Contributing
+
+Spotted something missing or out of date? Contributions are welcome. Open an issue or submit a pull request, and please link to a primary source wherever possible.
 
 ## Goal
 
-To become the go-to public list for tracking real-world C2PA support across devices and software.
+To be the most useful, trustworthy, and complete public reference for one simple question:
+
