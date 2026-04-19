@@ -1,0 +1,31 @@
+category,group,summary,name,status,notes
+Cameras,Leica,First manufacturer to ship hardware-level C2PA signing,M11-P,Live,World's first camera with built-in Content Credentials.
+Cameras,Leica,First manufacturer to ship hardware-level C2PA signing,M11-D,Live,Native support.
+Cameras,Leica,First manufacturer to ship hardware-level C2PA signing,SL3-S,Live,Native support in Leica's SL mirrorless line.
+Cameras,Leica,First manufacturer to ship hardware-level C2PA signing,Q3 Monochrom,Live,First Q-series body with C2PA.
+Cameras,Sony,"Support added via firmware, so updates matter",Alpha 1 (ILCE-1),Live,Stills: update to v2.00+. Video: planned post-November 2025.
+Cameras,Sony,"Support added via firmware, so updates matter",Alpha 1 II,Live,Stills and video supported.
+Cameras,Sony,"Support added via firmware, so updates matter",A9 III,Live,Stills and video supported.
+Cameras,Sony,"Support added via firmware, so updates matter",A7 IV,Live,Stills: update to v3.00+. Video: planned post-November 2025.
+Cameras,Sony,"Support added via firmware, so updates matter",A7S III,Live,Stills: update to v3.00+. Video: planned for 2026.
+Cameras,Sony,"Support added via firmware, so updates matter",FX3,Live,C2PA for video. Aimed at news and broadcast workflows.
+Cameras,Sony,"Support added via firmware, so updates matter",FX30,Live,"C2PA for video, updated alongside FX3."
+Cameras,Sony,"Support added via firmware, so updates matter",A7R V,Upcoming,Video support announced via firmware update after November 2025.
+Cameras,Canon,Native support in flagship pro mirrorless bodies,EOS R1,Live,Canon's flagship launched with C2PA.
+Cameras,Canon,Native support in flagship pro mirrorless bodies,EOS R5 Mark II,Live,Included at launch.
+Cameras,Nikon,Service currently suspended,Z6 III,Suspended,"Authenticity service suspended in September 2025. Nikon's authenticity service was suspended in September 2025 after a vulnerability reportedly allowed AI-generated images to receive valid signatures. Certificates were revoked and a fix is in development, so check Nikon's current status before relying on it for editorial workflows."
+Cameras,Fujifilm,GFX and X series support,GFX100S II,Live,Native support at launch.
+Cameras,Fujifilm,GFX and X series support,X-T50,Live,Native support at launch.
+Smartphones,Smartphones,Consumer-scale C2PA is arriving on mobile,Samsung Galaxy S25 Series,Live,First smartphones with native C2PA. Applies to Galaxy AI images and expands through One UI 7.
+Smartphones,Smartphones,Consumer-scale C2PA is arriving on mobile,Google Pixel 10 Series,Upcoming,Google announced native camera-app photos will embed C2PA metadata by default.
+Software & Platforms,Adobe,,Photoshop,,Content Credentials applied during edits.
+Software & Platforms,Adobe,,Lightroom / Classic / Mobile,,Attach and preserve credentials on export.
+Software & Platforms,Adobe,,Premiere Pro,,Credentials support for video workflows.
+Software & Platforms,Adobe,,Firefly,,Auto-embeds credentials in AI-generated assets.
+Software & Platforms,Adobe,,Adobe Stock & Behance,,Displays and preserves credentials with assets.
+Software & Platforms,Adobe,,Content Authenticity (Beta),,Standalone tooling for applying and inspecting credentials.
+Software & Platforms,Other Platforms,,ChatGPT / OpenAI,,C2PA credentials embedded in generated images.
+Software & Platforms,Other Platforms,,Google Photos,,Displays C2PA metadata for compatible images.
+Software & Platforms,Other Platforms,,LinkedIn,,Shows Content Credentials on supported feed images.
+Software & Platforms,Other Platforms,,Cloudinary,,C2PA in media management and delivery workflows.
+Software & Platforms,Other Platforms,,Stability AI / Google Gemini,,Generative AI tools with manifest support.
