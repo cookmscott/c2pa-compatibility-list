@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "last_updated": "2026-04-19",
+    "last_updated": "2026-04-20",
     "title": "C2PA Compatibility List",
     "description": "Canonical JSON source for cameras, smartphones, apps, platforms, and tools that support C2PA Content Credentials."
   },
@@ -48,18 +48,13 @@
     "Nikon": [
       {
         "name": "Z9",
-        "status": "Announced",
-        "notes": "Announced to receive C2PA support via a future firmware update. Prototypes have been tested with news agencies like AFP."
+        "status": "Not Supported",
+        "notes": "Nikon showed a Z9 provenance prototype in 2022, but Nikon's current Authenticity Service publicly lists only the Z6III as compatible; no public Z9 rollout is documented as of April 20, 2026."
       },
       {
         "name": "Z6 III",
-        "status": "Suspended",
-        "notes": "C2PA support was added via firmware but later suspended due to a critical signing vulnerability. The service has not yet been restored."
-      },
-      {
-        "name": "Future Models",
-        "status": "Announced",
-        "notes": "Nikon is a member of the C2PA steering committee and has committed to integrating Content Credentials into future camera models."
+        "status": "Live",
+        "notes": "Supports Nikon Authenticity Service with C2PA Content Credentials starting in firmware 2.00; requires Nikon Imaging Cloud registration and the latest firmware."
       }
     ],
     "Canon": [
@@ -103,8 +98,8 @@
     "Google": [
       {
         "name": "Pixel 10",
-        "status": "Announced",
-        "notes": "Expected to feature hardware-backed C2PA credentialing, using the Titan M2 security chip to sign every photo by default."
+        "status": "Live",
+        "notes": "Google launched Pixel 10 in August 2025, and Pixel Camera is now on the C2PA Conforming Products List. Google says Pixel 10 devices are first to add C2PA Content Credentials across photos captured in the native camera app."
       }
     ],
     "Hardware Enablers": [
@@ -150,8 +145,8 @@
       },
       {
         "name": "Sora",
-        "status": "Announced",
-        "notes": "OpenAI has pledged to add C2PA credentials to its video generation model to signify AI origin."
+        "status": "Live",
+        "notes": "OpenAI says all Sora videos embed C2PA metadata, and OpenAI Media Service appears on the C2PA Conforming Products List as of January 28, 2026."
       }
     ],
     "Microsoft": [
@@ -162,8 +157,8 @@
       },
       {
         "name": "Designer",
-        "status": "Announced",
-        "notes": "Microsoft is working to roll out Content Credentials capabilities in its graphic design application."
+        "status": "Live",
+        "notes": "Microsoft documents that Designer includes C2PA-based content credentials for AI-generated and AI-edited images, with controls for embedding credentials on export."
       }
     ],
     "Adobe": [
