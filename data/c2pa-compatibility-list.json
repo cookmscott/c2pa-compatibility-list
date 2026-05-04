@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0.0",
-    "last_updated": "2026-04-20",
+    "last_updated": "2026-05-04",
     "title": "C2PA Compatibility List",
     "description": "Canonical JSON source for cameras, smartphones, apps, platforms, and tools that support C2PA Content Credentials."
   },
@@ -49,12 +49,12 @@
       {
         "name": "Z9",
         "status": "Not Supported",
-        "notes": "Nikon showed a Z9 provenance prototype in 2022, but Nikon's current Authenticity Service publicly lists only the Z6III as compatible; no public Z9 rollout is documented as of April 20, 2026."
+        "notes": "Nikon showed a Z9 provenance prototype in 2022, but Nikon's current Authenticity Service still publicly lists only the Z6III as compatible; no public Z9 rollout is documented as of May 4, 2026."
       },
       {
         "name": "Z6 III",
         "status": "Live",
-        "notes": "Supports Nikon Authenticity Service with C2PA Content Credentials starting in firmware 2.00; requires Nikon Imaging Cloud registration and the latest firmware."
+        "notes": "Supports Nikon Authenticity Service with C2PA Content Credentials; Nikon says Z6III compatibility is live as of August 27, 2025 and requires Nikon Imaging Cloud plus current firmware."
       }
     ],
     "Canon": [
@@ -99,7 +99,7 @@
       {
         "name": "Pixel 10",
         "status": "Live",
-        "notes": "Google launched Pixel 10 in August 2025, and Pixel Camera is now on the C2PA Conforming Products List. Google says Pixel 10 devices are first to add C2PA Content Credentials across photos captured in the native camera app."
+        "notes": "Google says Pixel 10 is the first phone with C2PA Content Credentials across every photo created by Pixel Camera; Google Photos can also display credentials."
       }
     ],
     "Hardware Enablers": [
@@ -132,7 +132,7 @@
       {
         "name": "Capture One Pro (Studio & All in One)",
         "status": "Beta",
-        "notes": "Content Credentials support is currently in beta, allowing professional photographers to integrate provenance into their workflows."
+        "notes": "Introduced in Capture One 16.5.0 and still beta as of March 10, 2026. Available in All in One and Studio, appending edit history on JPEG/TIFF export while preserving existing credentials."
       }
     ]
   },
