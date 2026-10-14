@@ -235,6 +235,13 @@
         "status": "Live",
         "notes": "A third-party tool and website dedicated to making C2PA information easy to view and understand for the general public."
       }
+    ],
+    "invinoveritas": [
+      {
+        "name": "invinoveritas media check",
+        "status": "Live",
+        "notes": "Free web, API and MCP check of a file's Content Credentials (images, video, audio), reported per claim: signature/hash binding, signer on the official C2PA trust list, declared edits and AI-generation labels. A file can be checked by its SHA-256, hashed in the browser so the file stays on the device: https://invinoveritas.dev/check"
+      }
     ]
   }
 }
